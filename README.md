@@ -12,7 +12,7 @@ cd -
 
 ## SSH
 Connection Reset By [ip] port 22\
-`sudo rm /etc/ssh/ssh_host_* && sudo dpkg-reconfigure openssh-server`
+`sudo rm /etc/ssh/ssh_host_* && sudo dpkg-reconfigure openssh-server`\
 Run sshd
 1. `sudo service sshd start`
 2. `sudo systemctl start sshd.service`
