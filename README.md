@@ -11,6 +11,12 @@ cd -
 `/path1/path2/path3/script.sh`
 3. Run Script that runs relative to script's location (copy files ...)\
 `cd directory && ./script.sh`
+#### grep process by name pattern (full)
+`pgrep -lf pattern` (-l pattern, -f full command)
+#### last returned value (status 0: success otherwise: fail)
+$? -> last returned value\
+ex: `cat "hello world" | grep "hello" > /dev/null`\
+echo $?
 #### Mount Driver
 Mount\
 `sudo mount /dev/sdb1 directory`\
