@@ -24,7 +24,7 @@ Unmount\
 `sudo umount directory`
 
 #### run dhcp on network interface
-`sudo ifconfig eth0 0.0.0.0 0.0.0.0 && sudo dhclient`
+`sudo ifconfig eth0 0.0.0.0 0.0.0.0 && sudo dhclient`\
 `sudo killall dhclient && sudo ifconfig eth0 10.0.1.22 netmask 255.255.255.0`
 ## Jenkins
 
